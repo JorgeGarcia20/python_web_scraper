@@ -1,0 +1,17 @@
+news_sites:
+  elsol:
+    url: https://www.elsoldetoluca.com.mx
+    queries:
+      homepage_article_links: '.local top-1'
+  eluniversal:
+    url: https://www.eluniversal.com.mx/
+    queries:
+      homepage_article_links: '.titulo  a'
+  elpais:
+    url: https://elpais.com/mexico/
+    queries:
+      homepage_article_links: '.c_h c_t a'
+  eldiario:
+    url: https://periodicoeldiario.com/
+    queries:
+      homepage_article_links: 'entry-title td-module-title a'
