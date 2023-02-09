@@ -3,15 +3,24 @@ news_sites:
     url: https://www.elsoldetoluca.com.mx
     queries:
       homepage_article_links: '.local top-1'
+
+
   eluniversal:
     url: https://www.eluniversal.com.mx/
     queries:
       homepage_article_links: '.titulo  a'
+      article_body: '.Encabezado-Articulo texto-blanco'
+      article_title: '.h1 '
+
   elpais:
     url: https://elpais.com/mexico/
     queries:
-      homepage_article_links: '.c_h c_t a'
+      homepage_article_links: '.c_t a'
+      article_body: '.a_e _g _g-xs'
+      article_title: '.a_e_txt _df h1'
+
+
   eldiario:
     url: https://periodicoeldiario.com/
     queries:
-      homepage_article_links: 'entry-title td-module-title a'
+      homepage_article_links: '.entry-title td-module-title a'
